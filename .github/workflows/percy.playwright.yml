@@ -18,7 +18,6 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: percy snapshots
-      run: npx percy snapshot _site/ # or any directory such as public/
       env:
           PERCY_TOKEN: $
     - name: Run Playwright tests
