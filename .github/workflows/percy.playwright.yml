@@ -20,7 +20,7 @@ jobs:
     - name: Run Playwright tests
       run: npm run percytest
       env:
-          PERCY_TOKEN: web_86318cedda06157dcad40af29bfa065d47932a34e1bce87f728892c74446bc66
+          PERCY_TOKEN: $PERCY_SECRET_TKN
     - uses: actions/upload-artifact@v3
       if: always()
       with:
