@@ -17,7 +17,7 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
-    - name: Run Playwright tests
+    - name: Run Percy tests
       run: npm run percytest
       env:
           PERCY_TOKEN: ${{secrets.PERCY_SECRET_TKN}}
