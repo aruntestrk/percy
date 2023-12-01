@@ -7,4 +7,4 @@ snapshot:
   #percy-css: |
   #  textarea.gLFyf, .YacQv {
   #    background-color: red;
-  #  }
+   # }
