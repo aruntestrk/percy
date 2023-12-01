@@ -4,7 +4,7 @@ snapshot:
     - 375
     - 1280
   min-height: 1024
-  #percy-css: |
-  #  textarea.gLFyf, .YacQv {
-  #    background-color: red;
-  #  }
+  percy-css: |
+    textarea.gLFyf, .YacQv {
+      background-color: red;
+    }
