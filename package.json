@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"percytest": "percy exec --config ./percy.yml -- playwright test"},
+  "scripts": {"percytest": "percy exec --config ./percy.yml -- playwright test tests/percy.spec.ts"},
   "keywords": [],
   "author": "",
   "license": "ISC",
